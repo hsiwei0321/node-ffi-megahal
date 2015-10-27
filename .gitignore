@@ -1,4 +1,5 @@
 *.o
+*.so
 megahal.brn
 megahal.log
 megahal.txt
