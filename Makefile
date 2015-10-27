@@ -11,7 +11,7 @@ $(LIBRARY): $(OBJS)
 %.o: %.c
 	$(CC) -fpic -c $< -o $@
 
-node:
+test:
 	echo "Insert test here."
 
 clean:
