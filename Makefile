@@ -11,8 +11,11 @@ $(LIBRARY): $(OBJS)
 %.o: %.c
 	$(CC) -fpic -c $< -o $@
 
-test:
-	echo "Insert test here."
 
 clean:
 	rm -f *.o *.so
+
+test:
+	node test/megahal_test.js
+
+.PHONY: all test clean
