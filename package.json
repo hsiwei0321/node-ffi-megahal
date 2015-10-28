@@ -7,7 +7,8 @@
         "megahal",
         "ai",
         "chat",
-        "bot"
+        "bot",
+        "ffi"
     ],
     "dependencies": {
         "ffi": "*"
